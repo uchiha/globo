@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './main-page.css';
+import App from './main-page';
 import reportWebVitals from './reportWebVitals';
+// load bootstrap in this entrypoint file makes
+// it available in the whole app, even child components
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
